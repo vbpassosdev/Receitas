@@ -1,0 +1,41 @@
+.alice-regular {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+body {
+    background-image: url('./bg-image.png'); /* Caminho da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+}
+
+#page {
+    box-sizing: border-box;
+    width: 800px; /* Define a largura do container */
+    padding: 24px; /* Adiciona padding ao container */
+    background-color: #F0E8C2;
+    border-radius: 24px; /* Bordas arredondadas */
+    margin:  48px auto;
+}
+
+img{
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+}
+
+
+.heading1 {
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: normal; /* Regular */
+    color: #291B1A;
+}
+
+.heading2 {
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: normal; /* Regular */
+    color: #573A37;
+}
